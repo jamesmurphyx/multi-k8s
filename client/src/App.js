@@ -1,9 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import OtherPage from './OtherPage';
-import Fib from './Fib';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import OtherPage from "./OtherPage";
+import Fib from "./Fib";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
+          <h1 className="App-title">Fib calculator version KUBERNETES</h1>
           <a
             className="App-link"
             href="https://reactjs.org"
