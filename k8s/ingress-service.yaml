@@ -18,14 +18,14 @@ spec:
     - host: jamesmurphyx.net
       http:
         paths:
-          - path: /?(.*)
+          - path: /
             pathType: Prefix
             backend:
               service:
                 name: client-cluster-ip-service
                 port:
                   number: 3000
-          - path: /api/?(.*)
+          - path: /api/
             pathType: Prefix
             backend:
               service:
